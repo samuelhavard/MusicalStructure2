@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/now_playing_button"
+            style="@style/button_style"
+            android:text="@string/now_playing"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:text="Here I would use a Recycler View and an adapter to have a dynamic list of artists the user has on saved on the device.  This layout style was borrowed from an apple device.
+       "/>
+
+    <View
+        style="@style/view_style"
+        />
+
+    <TextView
+        android:id="@+id/song_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        android:text="Placeholder for an artist recyclerView. click to see a list of songs you own by this artist."/>
+
+    <View
+        style="@style/view_style"/>
+
+    <Button
+        android:id="@+id/google_play_button"
+        android:layout_gravity="center"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google_play_button"/>
+</LinearLayout>

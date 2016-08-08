@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="now_playing_explanation">This screen would have information about the currently playing song and possibly a link to Google Play to find other music like it or by this artist</string>
+    <string name="artist">Artist:</string>
+    <string name="song">Song:</string>
+    <string name="now_playing">Now Playing:</string>
+    <string name="google_play_button">Click to find more music on Google Play</string>
+</resources>
